@@ -16,4 +16,9 @@ public class AppController {
     public String Congratulations2() {
         return "My dream comes to love you so much god ...!💙";
     }
+
+    @GetMapping("/love")
+    public String CiCdLove() {
+        return "finally i made .. ! ❤️"
+    }
 }
