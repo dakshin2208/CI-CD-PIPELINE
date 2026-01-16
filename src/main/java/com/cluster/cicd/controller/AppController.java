@@ -12,4 +12,8 @@ public class AppController {
     public String Congratulations() {
         return "Sucessfully deployed the ci&cd pipeline .. ️❤️";
     }
+    @GetMapping("/cicd")
+    public String Congratulations2() {
+        return "My dream comes to love you so much god ...!💙";
+    }
 }
