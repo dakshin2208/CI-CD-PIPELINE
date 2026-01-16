@@ -19,6 +19,6 @@ public class AppController {
 
     @GetMapping("/love")
     public String CiCdLove() {
-        return "finally i made .. ! ❤️"
+        return "finally i made .. ! ❤️";
     }
 }
